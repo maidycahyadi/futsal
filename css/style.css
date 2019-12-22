@@ -4,10 +4,28 @@
 
 	}
 
-.toggle {
+.toggle  {
 	margin-top:  4%;
 
 	}
+.judul  {
+	margin-top:  6%;
+
+	}
+
+.tabel  {
+	margin-top:  4%;
+	margin-bottom: 4%;
+
+	}
+.laporan  {
+	margin-top:  5%;
+	  border: 2px solid black;
+  border-radius: 12px;
+  margin-bottom: 3%;
+
+	}
+
 
 body {
 	background-image: url("../img/maid.png");

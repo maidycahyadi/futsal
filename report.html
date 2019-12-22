@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/">
+
+    <title>Laporan Lapangan</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-fixed-top.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">Project name</a> -->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="report.html">Dafatar Lapangan</a></li>
+            
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+        <h1 class="judul text-center" style="color: black;">Laporan Jaya</h1>
+        <div class="container">
+          <div class="laporan">
+            <p>
+           <div class="row">
+              <form class="form-horizontal">
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Nama Tim</label>
+                    <div class="col-sm-10">
+                      <input type="name" class="form-control" id="Nama" placeholder="Nama Tim" style="width: 20%;">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">No Telpon</label>
+                    <div class="col-sm-10">
+                      <input type="telp" class="form-control" id="Telpon" placeholder="No Telpon" style="width: 20%;">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="" class="col-sm-2 control-label">Tanggal</label>
+                    <div class="col-sm-10">
+                      <input type="date" class="form-control" name="date" id="date" style="width: 20%;" >
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-sm-2 control-label">Uang Muka</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="uang" placeholder="Uang Muka" style="width: 20%;">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-sm-2 control-label">Lapangan</label>
+                    <div class="col-sm-10">
+                      <select class="form-control input-sm" style="width: 20%;">
+                        <option value="volvo">Lapangan 1</option>
+                        <option value="volvo">Lapangan 2</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-sm-2 control-label">Status</label>
+                    <div class="col-sm-10">
+                      <select class="form-control input-sm" style="width: 20%;">
+                        <option value="volvo">Lunas</option>
+                        <option value="volvo">Belum Lunas</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <p>
+                  <p>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                  </div>
+
+              </form>
+           </div>
+          </div>
+        </div>
+        <h1 class="text-center" style="color: black;">Jadwal Lapangan</h1>
+        <div class="container">
+          <div class="tabel">
+            <div class="row">
+              <div class="col-sm-12">
+                      <table class="table table-striped">
+                          <thead>
+                          <tr class="danger">
+                            <th scope="col">No</th>
+                            <th scope="col">Nama Tim</th>
+                            <th scope="col">Nomor Telpon</th>
+                            <th scope="col">Tanggal</th>
+                            <th scope="col">Uang Muka</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Lapangan</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="warning">
+                            <td>01</td>
+                            <td>Maman</td>
+                            <td>09834343</td>
+                            <td>23/10/2019</td>
+                            <td>50.000</td>
+                            <td>Belum Lunas</td>
+                            <td> 1 </td>
+                          </tr>
+                          <tr class="success">
+                            <td>02</td>
+                            <td>Juki</td>
+                            <td>089232898</td>
+                            <td>29/10/2019</td>
+                            <td>50.000</td>
+                            <td>Belum Lunas</td>
+                            <td> 2 </td>
+                          </tr>
+                          <tr class="warning">
+                            <td>03</td>
+                            <td>Mardiana</td>
+                            <td>08978232898</td>
+                            <td>29/10/2019</td>
+                            <td>150.000</td>
+                            <td>Lunas</td>
+                            <td> 2 </td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
