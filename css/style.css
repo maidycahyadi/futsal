@@ -96,3 +96,9 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.navbar {
+  background-color: #010147;
+  font-family: fantasy;
+}
+
